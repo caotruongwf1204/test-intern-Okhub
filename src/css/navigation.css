@@ -1,0 +1,57 @@
+.navigation-main {
+    position: sticky;
+    top: 0;
+}
+
+.navigation-main.show {
+    position: fixed;
+    top: -90px;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
+    z-index: 1;
+}
+
+.navigation {
+    padding: 0 30px;
+    width: 1400px;
+    height: 96px;
+    top: 24px;
+    border-radius: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px 0px #0000000A;
+}
+
+.navigation ul {
+    width: 921px;
+    height: 22px;
+}
+
+.navigation ul li {
+    font-weight: 700;
+}
+
+.icon-fb {
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    border-radius: 50px;
+    background: #B34B1E;
+}
+
+.icon-ytb {
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    border-radius: 50px;
+    background: #B34B1E;
+}
+
+
+
+@media (max-width: 1280px) {
+    .navigation-main {
+        display: none !important;
+    }
+}

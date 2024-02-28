@@ -1,0 +1,73 @@
+.service {
+    bottom: 40px;
+    border-radius: 12px;
+    Padding: 20px, 30px, 20px, 30px;
+    Gap: 30px;
+}
+
+
+
+.service-btn {
+    width: Hug (130px);
+    height: Hug (80px);
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 8px;
+    border: 1px;
+    gap: 4px;
+    background: #B34B1E;
+}
+
+.service-h5 {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.service-subtitle {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+}
+
+.select-tour {
+    font-family: Poppins;
+}
+.select-mobile-tour {
+    font-family: Poppins;
+border-bottom: 1px solid #D9D9D9;
+padding-bottom: 20px;
+}
+
+.service-line {
+    margin: 0 20px;
+    height: 34px;
+    border: 1px solid #D9D9D9;
+}
+
+
+.service-mobile {
+    display: none !important;
+    bottom: 0;
+    bottom: 20px;
+    border-radius: 12px;
+    Padding: 20px, 30px, 20px, 30px;
+    Gap: 30px;
+}
+
+@media (max-width: 1280px) {
+    .service {
+        display: none !important;
+    }
+
+    .service-mobile {
+        display: block !important;
+    }
+}
