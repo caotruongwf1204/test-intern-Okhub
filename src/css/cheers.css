@@ -30,14 +30,15 @@
 
 
 @media (max-width: 1024px) {
+    .cheertour-main {
+        padding: 0 16px !important;
+    }
     .tour-vn {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 0;
-        left: 50%;
-        transform: translateX(-50%);
+
     }
 
     .tour {

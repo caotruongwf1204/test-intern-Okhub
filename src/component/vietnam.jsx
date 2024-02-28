@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Vietnam() {
   return (
-    <div className="vietnam" data-aos="fade-left">
+    <div className="vietnam">
       <svg
       className="vietnam-map"
         width="567"

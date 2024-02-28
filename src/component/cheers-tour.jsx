@@ -6,15 +6,15 @@ export default function CheerTour() {
   return (
     <>
       <div className="flex items-center justify-center pt-16">
-        <div className="container relative px-10">
-          <div className="tour-main">
+        <div className="cheertour-main container relative px-10">
+          <div className="tour-main absolute">
             <p className="text-[#B34B1E] font-bold">START WITH</p>
             <div className="tour text-5xl font-extrabold">
               <div className="text-[#B34B1E] font-bold">HA GIANG</div>
               <div className="text-[#B34B1E] font-bold">CHEERS TOUR</div>
             </div>
           </div>
-          <div className="absolute tour-vn top-0 px-4 flex items-center justify-between" >
+          <div className="tour-vn flex items-center justify-between">
             <DescribeTour></DescribeTour>
             <Vietnam></Vietnam>
           </div>
