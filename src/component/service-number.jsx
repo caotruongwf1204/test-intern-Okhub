@@ -23,7 +23,7 @@ export default function ServiceNumber({ onChange }) {
   return (
     <div className="flex">
       <span className="font-bold">{updateCount} pax</span>
-      <div className="flex flex-col items-center pl-8">
+      <div className="flex flex-col btn-arrow items-center pl-24">
         <button onClick={increaseCount}>
           <IoIosArrowUp />
         </button>

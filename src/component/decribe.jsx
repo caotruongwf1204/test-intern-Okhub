@@ -4,7 +4,7 @@ export default function Describe(props) {
   return (
     <>
       <div>
-        <div className="relative flex items-center justify-center">
+        <div className="relative flex items-center justify-center cursor-pointer">
           <svg
             width="331"
             height="83"
@@ -17,7 +17,7 @@ export default function Describe(props) {
               fill="#5FB01C"
             />
           </svg>
-          <div className="absolute z-10 text-sm">{props.children}</div>
+          <div className="absolute z-10 text-sm ">{props.children}</div>
         </div>
       </div>
     </>

@@ -23,7 +23,7 @@ export default function Service() {
             <p className="text-[#727272] text-sm mb-3">TOUR</p>
             <div className="flex">
               <IconTour></IconTour>
-              <select className="font-bold">
+              <select className="font-bold cursor-pointer">
                 <option value="">HAGIANG LOOP TOUR (3N3D)</option>
                 <option value="">HAGIANG LOOP TOUR (4N4D)</option>
               </select>

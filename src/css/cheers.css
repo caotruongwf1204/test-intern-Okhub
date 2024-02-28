@@ -1,4 +1,35 @@
-@media (max-width: 1280px) {
+.book-now {
+    position: relative;
+    border-radius: 8px;
+    border: 1px;
+    gap: 4px;
+    padding: 12px 24px;
+    color: #fff;
+
+}
+
+.btn-svg {
+    position: absolute;
+}
+
+.read-more {
+    border: 1px solid#B34B1E;
+    padding: 12px 24px;
+    color: #B34B1E;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
     .tour-vn {
         display: flex;
         flex-direction: column;
@@ -31,29 +62,9 @@
         display: flex !important;
         overflow-x: auto !important;
     }
+
     .describe-btn {
         align-items: center;
         justify-content: space-between;
     }
-}
-
-.book-now {
-    position: relative;
-    border-radius: 8px;
-    border: 1px;
-    gap: 4px;
-    padding: 12px 24px;
-    color: #fff;
-
-}
-
-.btn-svg {
-    position: absolute;
-}
-
-.read-more {
-    border: 1px solid#B34B1E;
-    padding: 12px 24px;
-    color: #B34B1E;
-    border-radius: 8px ;
 }

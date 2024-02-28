@@ -36,10 +36,11 @@
     position: absolute;
     top: 20px;
     left: 16px;
+    display: none;
 }
 
 
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
     .nature {
         font-size: 60px;
         line-height: 139.8px;
@@ -49,5 +50,8 @@
     .back-to {
         font-size: 24px;
         line-height: 24.22px;
+    }
+    .logo-mobile {
+        display: block;
     }
 }

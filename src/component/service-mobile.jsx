@@ -21,7 +21,7 @@ export default function ServiceMobile() {
             <p className="text-[#727272] text-xs mb-3">TOUR</p>
             <div className="flex">
               <IconTour></IconTour>
-              <select className="text-sm font-bold">
+              <select className="text-sm font-bold cursor-pointer">
                 <option value="">HAGIANG LOOP TOUR (3N3D)</option>
                 <option value="">HAGIANG LOOP TOUR (4N4D)</option>
               </select>
