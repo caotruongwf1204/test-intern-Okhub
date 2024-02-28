@@ -5,7 +5,8 @@
         align-items: center;
         justify-content: center;
         gap: 0;
-
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .tour {
@@ -16,13 +17,43 @@
         order: -1;
         padding-top: 100px !important;
     }
+
     .vietnam-map {
         width: 100%;
         height: 100%;
     }
 
+    .describe-main {
+        width: 343px;
+    }
+
     .describe {
-        display: block !important;
+        display: flex !important;
+        overflow-x: auto !important;
+    }
+    .describe-btn {
+        align-items: center;
+        justify-content: space-between;
     }
 }
 
+.book-now {
+    position: relative;
+    border-radius: 8px;
+    border: 1px;
+    gap: 4px;
+    padding: 12px 24px;
+    color: #fff;
+
+}
+
+.btn-svg {
+    position: absolute;
+}
+
+.read-more {
+    border: 1px solid#B34B1E;
+    padding: 12px 24px;
+    color: #B34B1E;
+    border-radius: 8px ;
+}

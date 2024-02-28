@@ -1,10 +1,12 @@
 import "../css/banner.css";
+import LogoMobile from "./logo-mobile";
 import Service from "./service";
 import ServiceMobile from "./service-mobile";
 
 export default function Banner() {
   return (
     <div className="relative w-full flex justify-center">
+      <LogoMobile></LogoMobile>
       <div className="banner-img">
         <img src="/images/banner.png" alt="banner" />
       </div>

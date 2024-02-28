@@ -14,7 +14,7 @@ export default function CheerTour() {
               <div className="text-[#B34B1E] font-bold">CHEERS TOUR</div>
             </div>
           </div>
-          <div className="absolute tour-vn top-0 left-0 px-4 flex items-center justify-center" >
+          <div className="absolute tour-vn top-0 px-4 flex items-center justify-between" >
             <DescribeTour></DescribeTour>
             <Vietnam></Vietnam>
           </div>
