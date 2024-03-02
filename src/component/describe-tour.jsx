@@ -38,7 +38,7 @@ export default function DescribeTour() {
 
       <div className="describe-btn mt-5 flex">
         <button className="book-now bg-[#B34B1E] flex items-center justify-center">
-          <p className="z-10 font-semibold">BOOK NOW</p>
+          <p className="font-semibold">BOOK NOW</p>
           <svg
           className="btn-svg"
             width="100%"

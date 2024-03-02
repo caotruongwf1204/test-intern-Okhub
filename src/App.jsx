@@ -5,6 +5,8 @@ import CheerTour from "./component/cheers-tour";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Slider from "./component/slider";
+import Footer from "./component/footer";
 
 export default function App() {
   useEffect(() => {
@@ -12,9 +14,11 @@ export default function App() {
   }, []);
   return (
     <>
-      <Banner></Banner>
       <Navigation></Navigation>
+      <Banner></Banner>
+      <Slider></Slider>
       <CheerTour></CheerTour>
+      <Footer></Footer>
     </>
   );
 }
