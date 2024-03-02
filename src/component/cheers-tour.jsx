@@ -6,7 +6,7 @@ export default function CheerTour() {
   return (
     <>
       <div className="flex items-center justify-center pt-16">
-        <div className="cheertour-main container relative px-10">
+        <div className="cheertour-main container relative">
           <div className="tour-main absolute">
             <p className="text-[#B34B1E] font-bold">START WITH</p>
             <div className="tour text-5xl font-extrabold">

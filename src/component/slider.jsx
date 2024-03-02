@@ -4,7 +4,7 @@ import "../css/slider.css";
 export default function Slider() {
   return (
     <>
-      <div className="relative slider flex items-center justify-center pt-16">
+      <div className="relative z-[0] slider flex items-center justify-center pt-16">
         <div className="absolute top-16 z-10">
           <p className="slider-text text-[#B34B1E] text-[12px] md:text-[16px] font-bold text-center">WECOME TO</p>
           <div className="tour text-5xl font-extrabold">
@@ -15,7 +15,7 @@ export default function Slider() {
         <div className="slider-img">
           <img
             className="scale-on-scroll"
-            src="public/images/slde-3.png"
+            src="/images/slde-3.png"
             alt="slider"
           />
         </div>

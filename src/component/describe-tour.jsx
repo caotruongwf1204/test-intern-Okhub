@@ -3,7 +3,7 @@ import Describe from "./decribe";
 
 export default function DescribeTour() {
   return (
-    <main className="describe-main">
+    <main className="describe-main grid grid-cols-1 lg:grid-cols-1 md:grid-cols-2 ">
       <div
         data-aos="fade-right"
         className="describe grid grid-cols-2 gap-4 text-[#FFF0EA] pt-8"
@@ -34,9 +34,7 @@ export default function DescribeTour() {
             experienced easy riders.
           </p>
         </div>
-      </div>
-
-      <div className="describe-btn mt-5 flex">
+        <div className="describe-btn mt-5 flex">
         <button className="book-now bg-[#B34B1E] flex items-center justify-center">
           <p className="font-semibold">BOOK NOW</p>
           <svg
@@ -61,6 +59,9 @@ export default function DescribeTour() {
         </button>
         <button className="read-more font-semibold ml-5 flex items-center justify-center">READ MORE</button>
       </div>
+      </div>
+
+      
     </main>
   );
 }

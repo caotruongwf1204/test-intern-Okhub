@@ -1,0 +1,112 @@
+.card-item:hover .card-icon {
+    display: none;
+}
+
+.card-item:hover .card-icon2 {
+    display: block;
+}
+
+.accordion-header:active h2 {
+    color: #B34B1E !important;
+    border-color: #B34B1E;
+}
+
+.chakra-accordion {
+    padding-right: 0 !important;
+}
+
+.btn-section {
+    color: #B34B1E !important;
+
+}
+
+.section-btn-book {
+    position: relative;
+    border-radius: 8px;
+    border: 1px;
+    gap: 4px;
+    padding: 12px 24px;
+    color: #fff;
+
+}
+
+
+@media (max-width: 1024px) {
+    .section-main {
+        display: grid !important;
+        justify-content: center !important;
+        padding: 0 16px !important;
+    }
+
+    .section-des {
+        width: 100% !important;
+    }
+
+
+}
+
+@media (max-width: 425px) {
+    .section-1-header {
+        margin-right: 0 !important;
+        width: 100%;
+    }
+    .section-2-header {
+        margin-right: 0 !important;
+        width: 100%;
+    }
+
+    .section-card {
+        margin-right: 0 !important;
+    }
+
+    .section-1-header {
+        display: none !important;
+    }
+    .section-1-header.active {
+        display: grid !important;
+    }
+    .section-2-header {
+        display: none !important;
+    }
+    .section-2-header.active {
+        display: grid !important;
+    }
+
+    .btn-text {
+        display: none !important;
+    }
+    .btn-text.active {
+        display: block !important;
+    }
+    .btn-section {
+        text-align: center !important;
+    }
+
+    .btn-section.active {
+        color: #B34B1E !important;
+        border-bottom: 3px solid #B34B1E;
+
+    }
+
+    .btn-section:hover {
+        color: #B34B1E !important;
+        border-bottom: 3px solid #B34B1E;
+    }
+
+    .btn-section {
+        color: #B7B7B7 !important;
+        font-size: 16px !important;
+    }
+    .faq {
+        font-size: 12px !important;
+    }
+
+    .trip {
+        font-size: 24px !important;
+    }
+
+    .section-btn-book {
+        display: none !important;
+    }
+
+}

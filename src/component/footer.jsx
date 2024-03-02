@@ -7,7 +7,7 @@ export default function Footer() {
     <>
       <div className="footer w-full flex justify-center pt-[40px] bg-[#FFFDF6]">
         <div className="container footer-main flex justify-center">
-          <div className="footer-content w-full flex justify-between">
+          <div className="footer-content w-full justify-between grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
             <LogoFooter></LogoFooter>
             <div className="  leading-9 text-[14px] text-center lg:text-left">
               <strong className="font-bold">CONTACT US</strong>

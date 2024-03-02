@@ -55,6 +55,15 @@
         height: 100%;
     }
 
+    
+
+    .describe-btn {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 425px) {
     .describe-main {
         width: 343px;
     }
@@ -62,10 +71,5 @@
     .describe {
         display: flex !important;
         overflow-x: auto !important;
-    }
-
-    .describe-btn {
-        align-items: center;
-        justify-content: space-between;
     }
 }

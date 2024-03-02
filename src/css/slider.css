@@ -1,11 +1,8 @@
-.slider {
-    z-index: -99999;
-}
+
 
 .scale-on-scroll {
     transition: transform 0.5s ease;
     object-fit: cover;
-    border-radius: 16px;
     z-index: -1111 !important;
 }
 

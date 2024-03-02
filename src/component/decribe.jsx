@@ -17,7 +17,7 @@ export default function Describe(props) {
               fill="#5FB01C"
             />
           </svg>
-          <div className="absolute z-10 text-sm ">{props.children}</div>
+          <div className="absolute z-10 text-sm text-center">{props.children}</div>
         </div>
       </div>
     </>
