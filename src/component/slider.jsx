@@ -15,7 +15,7 @@ export default function Slider() {
         <div className="slider-img">
           <img
             className="scale-on-scroll"
-            src="public/images/slde-3.jpg"
+            src="public/images/slde-3.png"
             alt="slider"
           />
         </div>
