@@ -1,4 +1,4 @@
-.card-item:hover .card-icon {
+/* .card-item:hover .card-icon {
     display: none;
 }
 
@@ -9,8 +9,18 @@
 .accordion-header:active h2 {
     color: #B34B1E !important;
     border-color: #B34B1E;
+} */
+
+.css-uttm9k:hover {
+    color: #B34B1E !important;
 }
 
+.css-17mg6aq {
+    border-top-width: 0 !important;
+}
+.css-17mg6aq:active {
+    color: #B34B1E !important;
+}
 .chakra-accordion {
     padding-right: 0 !important;
 }

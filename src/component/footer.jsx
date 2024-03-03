@@ -5,7 +5,7 @@ import LogoFooter from "./logo-footer";
 export default function Footer() {
   return (
     <>
-      <div className="footer w-full flex justify-center pt-[40px] bg-[#FFFDF6]">
+      <div className="footer w-full flex justify-center mt-[120px] bg-[#FFFDF6]">
         <div className="container footer-main flex justify-center">
           <div className="footer-content w-full justify-between grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1">
             <LogoFooter></LogoFooter>

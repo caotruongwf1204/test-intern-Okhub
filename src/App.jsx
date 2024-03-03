@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import Slider from "./component/slider";
 import Footer from "./component/footer";
 import Section from "./component/section";
+import MenuMobile from "./component/menu-mobile";
 
 export default function App() {
   useEffect(() => {
@@ -16,6 +17,7 @@ export default function App() {
   return (
     <>
       <Navigation></Navigation>
+      <MenuMobile></MenuMobile>
       <Banner></Banner>
       <Slider></Slider>
       <CheerTour></CheerTour>
