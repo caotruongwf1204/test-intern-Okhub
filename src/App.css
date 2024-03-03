@@ -11,6 +11,10 @@ li {
   cursor: pointer;
 }
 
+li:hover {
+  color: #B34B1E;
+}
+
 .container {
   width: 1600px;
 }

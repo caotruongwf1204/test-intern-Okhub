@@ -19,10 +19,10 @@ const Section = () => {
       <div className="flex justify-center pt-[40px]">
         <div className="container section-main flex justify-between">
           <div className="gap-5">
-            <span className="text-[#B34B1E] faq text-[16px] font-extrabold">
+            <span className="text-[#B34B1E] leading-[16px] faq text-[16px] font-extrabold">
               FAQ ABOUT
             </span>
-            <h1 className="text-[64px] trip text-[#B34B1E] font-bold">THE TRIP</h1>
+            <h1 className="text-[64px] leading-[64px] mb-5 trip text-[#B34B1E] font-bold">THE TRIP</h1>
             <button className="section-btn-book bg-[#B34B1E] flex items-center justify-center">
               <p className=" font-semibold">BOOK NOW</p>
               <svg

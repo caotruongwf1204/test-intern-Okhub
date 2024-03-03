@@ -9,6 +9,7 @@ import Slider from "./component/slider";
 import Footer from "./component/footer";
 import Section from "./component/section";
 import MenuMobile from "./component/menu-mobile";
+import Slide from "./component/slide";
 
 export default function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function App() {
       <Banner></Banner>
       <Slider></Slider>
       <CheerTour></CheerTour>
+      <Slide></Slide>
       <Section></Section>
       <Footer></Footer>
     </>

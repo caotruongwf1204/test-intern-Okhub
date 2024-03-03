@@ -1,0 +1,157 @@
+.carousel {
+    margin-top: 40px;
+}
+
+.carousel-container {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item-img {
+    height: 520px;
+}
+
+
+.carousel-item-title {
+    color: #727272;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.carousel-item-description {
+    color: #727272;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.0025em;
+    text-align: left;
+
+}
+
+
+.carousel-navigation {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-navigation-prev,
+.carousel-navigation-next {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-navigation-prev:hover,
+.carousel-navigation-next:hover {
+    background-color: #B34B1E;
+    ;
+}
+
+.carousel-navigation-prev:disabled,
+.carousel-navigation-next:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.li-slide {
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.6s ease-in-out;
+}
+
+.li-slide:hover {
+    border-bottom: 3px solid #B34B1E;
+}
+
+
+.li-slide.active {
+    border-bottom: 3px solid #B34B1E;
+    color: #B34B1E;
+}
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .carousel-item {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-item-img {
+        order: -1;
+        width: 100% !important;
+    }
+
+    .carousel-item-content {
+        width: 100% !important;
+        margin-top: 20px;
+        padding: 0 !important;
+    }
+
+    .slide-btn {
+        justify-content: center;
+    }
+
+    .carousel {
+        padding: 0 16px;
+    }
+
+    .slide-header {
+        display: block !important;
+    }
+
+    .slide-title {
+        padding: 0 16px;
+    }
+
+    .slide-nav {
+        padding: 0 16px;
+        margin-top: 30px;
+    }
+    .slide-nav ul {
+        gap: 0 !important;
+    }
+    .li-slide {
+        font-size: 12px !important;
+        width: 100% !important;
+        line-height: 16px !important;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .carousel-item-img {
+        order: -1;
+        width: 100% !important;
+        height: 206px;
+    }
+
+    .slide-btn {
+        justify-content: space-between;
+    }
+}
