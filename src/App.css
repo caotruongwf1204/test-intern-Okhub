@@ -45,3 +45,15 @@ li:hover {
     justify-content: space-between;
   }
 }
+
+@media (max-width: 768px) {
+  .book-now-scroll {
+    display: none;
+  }
+  .wrapper {
+    display: none;
+  }
+  .btn-scroll {
+    bottom: 30px !important;
+  }
+}

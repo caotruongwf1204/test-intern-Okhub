@@ -19,7 +19,7 @@ export default function ScrollToTopButton() {
 
   return (
     <button
-      className="fixed bottom-[290px] p-4 rounded-full right-[38px] z-50 border border-solid border-[#FC692A] hover:bg-[#fff]"
+      className="fixed btn-scroll bottom-[290px] p-4 rounded-full right-[38px] z-50 border border-solid border-[#FC692A] hover:bg-[#fff]"
       onClick={scrollToTop}
       style={{ display: isVisible ? "inline" : "none" }}
     >
