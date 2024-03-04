@@ -1,6 +1,6 @@
 import DescribeTour from "./describe-tour";
 import Vietnam from "./vietnam";
-import '../css/cheers.css';
+import '../../css/cheers.css';
 
 export default function CheerTour() {
   return (

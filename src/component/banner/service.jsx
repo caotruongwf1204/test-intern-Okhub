@@ -1,7 +1,7 @@
-import Button from "../component/button";
-import "../css/service.css";
-import IconTour from "../component/icon-tour";
-import IconSelf from "./icon-self";
+import Button from "../button";
+import "../../css/service.css";
+import IconTour from "../icon-tour";
+import IconSelf from "../icon-self";
 import ServiceNumber from "./service-number";
 import { useState } from "react";
 

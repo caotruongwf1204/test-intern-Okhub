@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/slide.css";
+import "../../css/slide.css";
 import Carousel from "./carousel";
 import SlideSwiper from "./slide-swiper";
 

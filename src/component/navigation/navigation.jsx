@@ -1,11 +1,14 @@
-import "../css/navigation.css";
+import "../../css/navigation.css";
 import { IoIosArrowDown } from "react-icons/io";
-import Logo from "./logo";
+import Logo from "../navigation/logo";
 import { useEffect, useState } from "react";
 
 export default function Navigation() {
+  const [isActive, setIsActive] = useState(false);
+  const handleActive = () => {
+    setIsActive(!isActive);
+  };
   const [isScrolled, setIsScrolled] = useState(false);
-  
 
   const handleScroll = () => {
     const scrollY = window.scrollY;
@@ -35,12 +38,23 @@ export default function Navigation() {
             <ul className="flex items-center justify-between">
               <li>HOME</li>
               <li>ABOUT US</li>
-              <li className="flex items-center justify-center gap-1">
+              <li
+                onClick={handleActive}
+                className="nav-bar-tour flex items-center justify-center gap-1"
+              >
                 TOUR{" "}
                 <IoIosArrowDown
                   style={{ width: "16px", height: "16px", fontWeight: "700" }}
                 />
               </li>
+              <div
+                className={`absolute nar-bar cursor-pointer rounded-lg left-[400px] top-[90px] w-[250px] bg-[#fff] p-2 ${
+                  isActive ? "active" : ""
+                }`}
+              >
+                <p>HAGIANG LOOP TOUR (3D3N)</p>
+                <p>HAGIANG LOOP TOUR (4D4N)</p>
+              </div>
               <li>DESTINATIONS</li>
               <li>BLOG</li>
               <li>FAQ</li>

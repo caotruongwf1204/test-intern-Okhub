@@ -1,5 +1,5 @@
-import "../css/banner.css";
-import LogoMobile from "./logo-mobile";
+import "../../css/banner.css";
+import LogoMobile from "../navigation/logo-mobile";
 import Service from "./service";
 import ServiceMobile from "./service-mobile";
 

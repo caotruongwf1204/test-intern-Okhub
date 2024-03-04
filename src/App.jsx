@@ -1,15 +1,18 @@
-import Banner from "./component/banner";
+
 import "./App.css";
-import Navigation from "./component/navigation";
-import CheerTour from "./component/cheers-tour";
+import CheerTour from "./component/cheers/cheers-tour";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import Slider from "./component/slider";
-import Footer from "./component/footer";
-import Section from "./component/section";
-import MenuMobile from "./component/menu-mobile";
-import Slide from "./component/slide";
+import Footer from "./component/footer/footer";
+import Section from "./component/trip/section";
+import Hotline from "./component/hotline";
+import Navigation from "./component/navigation/navigation";
+import Banner from "./component/banner/banner";
+import Slider from "./component/slider/slider";
+import Slide from "./component/slide/slide";
+import ScrollToTopButton from "./component/btn-scroll";
+
 
 export default function App() {
   useEffect(() => {
@@ -17,8 +20,9 @@ export default function App() {
   }, []);
   return (
     <>
+      <Hotline></Hotline>
+      <ScrollToTopButton></ScrollToTopButton>
       <Navigation></Navigation>
-      <MenuMobile></MenuMobile>
       <Banner></Banner>
       <Slider></Slider>
       <CheerTour></CheerTour>

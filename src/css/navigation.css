@@ -49,6 +49,31 @@
     background: #B34B1E;
 }
 
+.nar-bar {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.0025em;
+    text-align: left;
+    opacity: 0;
+    box-shadow: 0 0 7px 0.5px rgba(0, 0, 0, .15);
+    transform: rotateX(90deg);
+    transform-origin: center top 0;
+    transition: all .5s ease 0s;
+    visibility: hidden;
+}
+
+.nar-bar p:hover {
+    color: #B34B1E;
+}
+
+.nar-bar.active {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: rotatey(0);
+}
+
 
 
 @media (max-width: 1024px) {
