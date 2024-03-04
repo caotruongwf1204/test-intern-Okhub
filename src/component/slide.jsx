@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../css/slide.css";
 import Carousel from "./carousel";
+import SlideSwiper from "./slide-swiper";
 
 const slider = [
   {
@@ -22,7 +23,7 @@ const slider = [
     trip: 158,
   },
   {
-    image: "public/images/0b907f8732824504abdb9d29c4ed0114.png",
+    image: "/images/0b907f8732824504abdb9d29c4ed0114.png",
     title: "TAY TEAM",
     description:
       "Blown away by our Tanzania safari, I never expected it to be that good — it totally exceeded my expectations and was all hassle free. Our guide was absolutely amazing too. Have re-booked and cannot wait for next year! Blown away by our Tanzania safari, I never expected it to be that good — it totally exceeded my expectations and was all hassle free. Our guide was absolutely amazing too. Have re-booked and cannot wait for .Our guide was absolutely amazing too. ",
@@ -57,33 +58,46 @@ export default function Slide() {
               <ul className="w-full flex justify-between gap-10 font-semibold text-[14px]">
                 <li
                   onClick={() => handleActive(0)}
-                  className={`li-slide whitespace-nowrap text-center ${activeIndex === 0 ? "active" : ""}`}
+                  className={`li-slide whitespace-nowrap text-center ${
+                    activeIndex === 0 ? "active" : ""
+                  }`}
                 >
                   TOUR LEADER
                 </li>
                 <li
                   onClick={() => handleActive(1)}
-                  className={`li-slide whitespace-nowrap text-center ${activeIndex === 1 ? "active" : ""}`}
+                  className={`li-slide whitespace-nowrap text-center ${
+                    activeIndex === 1 ? "active" : ""
+                  }`}
                 >
                   SPECIALIST
                 </li>
                 <li
                   onClick={() => handleActive(2)}
-                  className={`li-slide whitespace-nowrap text-center ${activeIndex === 2 ? "active" : ""}`}
+                  className={`li-slide whitespace-nowrap text-center ${
+                    activeIndex === 2 ? "active" : ""
+                  }`}
                 >
                   LOCAL HOST
                 </li>
                 <li
                   onClick={() => handleActive(3)}
-                  className={`li-slide whitespace-nowrap text-center ${activeIndex === 3 ? "active" : ""}`}
+                  className={`li-slide whitespace-nowrap text-center ${
+                    activeIndex === 3 ? "active" : ""
+                  }`}
                 >
                   RIDER TEAM
                 </li>
               </ul>
             </div>
           </div>
+          <div className={`slide-slider ${activeIndex === 0 ? "active" : ""}`}>
+            <Carousel items={slider}></Carousel>
+          </div>
 
-          <Carousel items={slider}></Carousel>
+          <div className={`slide-slider-user pt-4 ${activeIndex === 1 ? "active" : ""}`}>
+            <SlideSwiper></SlideSwiper>
+          </div>
         </div>
       </div>
     </>

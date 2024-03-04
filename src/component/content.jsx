@@ -2,7 +2,7 @@ import React from "react";
 
 const Content = ({ title, description, size, transport, trip }) => {
   return (
-    <div className="carousel-item-content w-4/12 gap-[8px]">
+    <div className="carousel-item-content w-4/12">
       <h5 className="carousel-item-title">{title}</h5>
       <p className="carousel-item-description">{description}</p>
       <div className="mt-[30px] w-full grid gap-3 size-3.5">

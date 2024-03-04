@@ -34,7 +34,7 @@
         display: grid !important;
         justify-content: center !important;
         padding: 0 16px !important;
-        margin-top: 150px;
+        /* margin-top: 150px; */
     }
 
     .section-des {
