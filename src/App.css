@@ -30,6 +30,13 @@ li:hover {
   color: #fff;
 }
 
+.btn:hover {
+  color: #B34B1E;
+  background-color: #fff;
+  border: 1px solid #B34B1E;
+  transition: all 0.5s ease;
+}
+
 
 @media (max-width: 1024px) {
   .btn {

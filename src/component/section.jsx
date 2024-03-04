@@ -23,7 +23,7 @@ const Section = () => {
               FAQ ABOUT
             </span>
             <h1 className="text-[64px] leading-[64px] mb-5 trip text-[#B34B1E] font-bold">THE TRIP</h1>
-            <button className="section-btn-book bg-[#B34B1E] flex items-center justify-center">
+            <button className="book-now bg-[#B34B1E] flex items-center justify-center">
               <p className=" font-semibold">BOOK NOW</p>
               <svg
                 className="btn-svg"
