@@ -1,11 +1,15 @@
 .navigation-main {
     position: sticky;
+    transition: transform 0.5s ease;
     top: 0;
+
+    visibility: visible;
+    transform: translateY(0);
 }
 
 .navigation-main.show {
     position: fixed;
-    top: -90px;
+    top: -80px;
     opacity: 1;
     visibility: visible;
     transform: translateY(100%);
@@ -72,6 +76,10 @@
     opacity: 1;
     visibility: visible;
     transform: rotatey(0);
+}
+
+.loop:hover {
+    background-color: rgb(228, 228, 228);
 }
 
 

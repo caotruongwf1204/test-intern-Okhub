@@ -12,6 +12,7 @@ import Banner from "./component/banner/banner";
 import Slider from "./component/slider/slider";
 import Slide from "./component/slide/slide";
 import ScrollToTopButton from "./component/btn-scroll";
+import BtnNowScroll from "./component/btn-now-scroll";
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
   return (
     <>
       <Hotline></Hotline>
+      <BtnNowScroll></BtnNowScroll>
       <ScrollToTopButton></ScrollToTopButton>
       <Navigation></Navigation>
       <Banner></Banner>

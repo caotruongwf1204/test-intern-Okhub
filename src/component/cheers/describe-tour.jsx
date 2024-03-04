@@ -3,7 +3,7 @@ import Describe from "./decribe";
 
 export default function DescribeTour() {
   return (
-    <main className="describe-main grid grid-cols-1 lg:grid-cols-1 md:grid-cols-2 ">
+    <main className="describe-main w-full grid grid-cols-1 lg:grid-cols-1 md:grid-cols-2 ">
       <div
         data-aos="fade-right"
         className="describe grid grid-cols-2 gap-4 text-[#FFF0EA] pt-8"

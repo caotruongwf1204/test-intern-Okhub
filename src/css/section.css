@@ -1,4 +1,3 @@
-
 .css-uttm9k:hover {
     color: #B34B1E !important;
 }
@@ -6,9 +5,11 @@
 .css-17mg6aq {
     border-top-width: 0 !important;
 }
+
 .css-17mg6aq:active {
     color: #B34B1E !important;
 }
+
 .chakra-accordion {
     padding-right: 0 !important;
 }
@@ -28,6 +29,13 @@
 
 }
 
+.section-btn-book:hover {
+    background-color: #fff;
+    color: black;
+    border: 1px solid #B34B1E;
+    transition: all 0.5s ease-in-out;
+}
+
 
 @media (max-width: 1024px) {
     .section-main {
@@ -41,6 +49,10 @@
         width: 100% !important;
     }
 
+    .section-btn-book {
+        display: none !important;
+    }
+
 
 }
 
@@ -49,6 +61,7 @@
         margin-right: 0 !important;
         width: 100%;
     }
+
     .section-2-header {
         margin-right: 0 !important;
         width: 100%;
@@ -61,12 +74,15 @@
     .section-1-header {
         display: none !important;
     }
+
     .section-1-header.active {
         display: grid !important;
     }
+
     .section-2-header {
         display: none !important;
     }
+
     .section-2-header.active {
         display: grid !important;
     }
@@ -74,9 +90,11 @@
     .btn-text {
         display: none !important;
     }
+
     .btn-text.active {
         display: block !important;
     }
+
     .btn-section {
         text-align: center !important;
     }
@@ -96,6 +114,7 @@
         color: #B7B7B7 !important;
         font-size: 16px !important;
     }
+
     .faq {
         font-size: 12px !important;
     }

@@ -42,7 +42,7 @@ export default function Slide() {
 
   return (
     <>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-4">
         <div className="container">
           <div className="slide-header flex justify-between">
             <div className="slide-title">

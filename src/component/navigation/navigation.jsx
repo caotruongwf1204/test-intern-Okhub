@@ -8,19 +8,21 @@ export default function Navigation() {
   const handleActive = () => {
     setIsActive(!isActive);
   };
+  const [lastScrollTop, setLastScrollTop] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
 
   const handleScroll = () => {
-    const scrollY = window.scrollY;
-    setIsScrolled(scrollY > 200);
+    const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    setIsScrolled(currentScrollTop < lastScrollTop || currentScrollTop === 0);
+    setLastScrollTop(currentScrollTop <= 0 ? 0 : currentScrollTop);
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [lastScrollTop]);
   return (
     <div
       className={`navigation-main absolute top-6 flex items-center justify-center w-full ${
@@ -40,21 +42,21 @@ export default function Navigation() {
               <li>ABOUT US</li>
               <li
                 onClick={handleActive}
-                className="nav-bar-tour flex items-center justify-center gap-1"
+                className="nav-bar-tour relative flex items-center justify-center gap-1"
               >
                 TOUR{" "}
                 <IoIosArrowDown
                   style={{ width: "16px", height: "16px", fontWeight: "700" }}
                 />
-              </li>
               <div
-                className={`absolute nar-bar cursor-pointer rounded-lg left-[400px] top-[90px] w-[250px] bg-[#fff] p-2 ${
+                className={`absolute nar-bar cursor-pointer rounded-lg top-[50px] w-[250px] bg-[#fff] py-2 ${
                   isActive ? "active" : ""
                 }`}
               >
-                <p>HAGIANG LOOP TOUR (3D3N)</p>
-                <p>HAGIANG LOOP TOUR (4D4N)</p>
+                <p className="loop px-2">HAGIANG LOOP TOUR (3D3N)</p>
+                <p className="loop px-2">HAGIANG LOOP TOUR (4D4N)</p>
               </div>
+              </li>
               <li>DESTINATIONS</li>
               <li>BLOG</li>
               <li>FAQ</li>
