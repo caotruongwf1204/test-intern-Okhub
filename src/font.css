@@ -1,0 +1,36 @@
+/*font tomatoes*/
+
+@font-face {
+    font-family: 'Tomatoes';
+    src: url('./font/tomatoes/Tomatoes.eot');
+    src: url('./font/tomatoes/Tomatoes.eot?#iefix') format('embedded-opentype'),
+        url('./font/tomatoes/Tomatoes.woff2') format('woff2'),
+        url('./font/tomatoes/Tomatoes.woff') format('woff'),
+        url('./font/tomatoes/Tomatoes.ttf') format('truetype'),
+        url('./font/tomatoes/Tomatoes.svg#Tomatoes') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*font heavitas*/
+
+@font-face {
+    font-family: 'Heavitas';
+    src: url('./font/heavitas/Heavitas.eot');
+    src: url('./font/heavitas/Heavitas.eot?#iefix') format('embedded-opentype'),
+        url('./font/heavitas/Heavitas.woff2') format('woff2'),
+        url('./font/heavitas/Heavitas.woff') format('woff'),
+        url('./font/heavitas/Heavitas.ttf') format('truetype'),
+        url('./font/heavitas/Heavitas.svg#Heavitas') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+

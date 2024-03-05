@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Tomatoes';
+    src: url('Tomatoes.eot');
+    src: url('Tomatoes.eot?#iefix') format('embedded-opentype'),
+        url('Tomatoes.woff2') format('woff2'),
+        url('Tomatoes.woff') format('woff'),
+        url('Tomatoes.ttf') format('truetype'),
+        url('Tomatoes.svg#Tomatoes') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

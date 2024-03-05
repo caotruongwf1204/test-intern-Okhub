@@ -12,7 +12,7 @@ export default function Banner() {
       </div>
       <div className="banner-text flex absolute">
         <p className="back-to">BACK to</p>
-        <p className="nature justify-end">NATUTE</p>
+        <p className="nature justify-end">nature</p>
       </div>
       <Service></Service>
       <ServiceMobile></ServiceMobile>

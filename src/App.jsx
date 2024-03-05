@@ -1,4 +1,3 @@
-
 import "./App.css";
 import CheerTour from "./component/cheers/cheers-tour";
 import AOS from "aos";
@@ -13,7 +12,7 @@ import Slider from "./component/slider/slider";
 import Slide from "./component/slide/slide";
 import ScrollToTopButton from "./component/btn-scroll";
 import BtnNowScroll from "./component/btn-now-scroll";
-
+import "./font.css";
 
 export default function App() {
   useEffect(() => {
